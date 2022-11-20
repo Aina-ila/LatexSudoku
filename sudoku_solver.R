@@ -14,7 +14,7 @@ puzzle <- c(5,3,0, 0,7,0, 0,0,0,
             0,0,0, 0,8,0, 0,7,9)
 
 
-# Step 2: Convert puzzle board into matrix --------------------------------------------
+# Step 2: Convert puzzle into matrix --------------------------------------------
 
 puzzle <- matrix(puzzle, nrow = 9, ncol = 9, byrow = TRUE) 
 
